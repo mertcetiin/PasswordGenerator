@@ -4,11 +4,11 @@
   margin: 0;
   box-sizing: border-box; }
 
-/* line 7, scss/main.scss */
+/* line 8, scss/main.scss */
 header {
   text-align: center;
   margin-top: 80px; }
-  /* line 11, scss/main.scss */
+  /* line 12, scss/main.scss */
   header button {
     margin-top: 20px;
     border: none;
@@ -16,8 +16,54 @@ header {
     cursor: pointer;
     margin-left: 40px;
     background-color: #fff; }
-  /* line 20, scss/main.scss */
+  /* line 21, scss/main.scss */
   header input {
     width: 500px;
     height: 50px;
     font-size: 25px; }
+
+/* line 28, scss/main.scss */
+section {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 22px; }
+  /* line 33, scss/main.scss */
+  section .length {
+    width: 100px;
+    height: 25px;
+    font-size: 15px; }
+  /* line 39, scss/main.scss */
+  section label {
+    display: inline-block;
+    max-width: 500px;
+    margin-left: -100px; }
+  /* line 45, scss/main.scss */
+  section .upperCase {
+    margin-left: 280px; }
+  /* line 49, scss/main.scss */
+  section .lowerCase {
+    margin-left: 280px; }
+  /* line 53, scss/main.scss */
+  section .nums {
+    margin-left: 320px;
+    margin-right: -20px; }
+  /* line 58, scss/main.scss */
+  section .symbol {
+    margin-left: 260px;
+    margin-right: -15px; }
+  /* line 63, scss/main.scss */
+  section input {
+    display: inline-block;
+    width: 100px;
+    margin-right: -20px;
+    margin-left: 300px; }
+  /* line 70, scss/main.scss */
+  section button {
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: none; }
+  /* line 78, scss/main.scss */
+  section .copy {
+    margin-left: 70px; }
