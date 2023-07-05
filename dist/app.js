@@ -20,7 +20,7 @@ function PasswordGenerator() {
     if (useUpperCase) result += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     if (useLowerCase) result += 'abcdefghijklmnopqrstuvwxyz';
     if (useNums) result += '0123456789';
-    if (useSymbol) result += '!@#$%^&*()';
+    if (useSymbol) result += '!@#$%^&*().-';
 
     let password = '';
     for (let i = 0; i < length; i++) {
@@ -33,3 +33,13 @@ function PasswordGenerator() {
 
 createDOM.addEventListener('click', PasswordGenerator);
 
+copyDOM.addEventListener('click', () => {
+    inputDOM.select()
+    document.execCommand('copy')
+});
+
+const deleteDOM = document.querySelector('.delete');
+
+deleteDOM.addEventListener('click', () => {
+    inputDOM.value = '';
+})
