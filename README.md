@@ -2,4 +2,5 @@
 
 Overview:
 
-![image](https://github.com/mertcetiin/PasswordGenerator/assets/102957602/41f7da14-de22-475f-bad4-43f4fe090f2d)
+![image](https://github.com/mertcetiin/PasswordGenerator/assets/102957602/ea0f4914-e226-4b92-93bd-1e64359ebff2)
+
