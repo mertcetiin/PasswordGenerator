@@ -10,6 +10,8 @@ Overview:
 
 git clone https://github.com/mertcetiin/PasswordGenerator.git
 
+npm run sass
+
 
 # Starting project
 
